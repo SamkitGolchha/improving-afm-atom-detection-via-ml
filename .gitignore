@@ -1,0 +1,18 @@
+# Whitelist: only code, model weights and repo docs are tracked.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/WEIGHTS_LICENSE.md
+!/requirements.txt
+!/src/
+!/scripts/
+!/results/
+/results/*
+!/results/pilot/
+/results/pilot/*
+!/results/pilot/models/
+
+__pycache__/
+*.pyc
+.DS_Store
